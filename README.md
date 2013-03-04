@@ -2,6 +2,8 @@
 
 Providing kitten not_found pages for [Sinatra](https://github.com/sinatra/sinatra "Sinatra") using [placekitten](http://placekitten.com/ "placekitten").
 
+Example application [here](http://sinatra-kittens-example.herokuapp.com/).
+
 ## Requirements
 - Ruby => 1.9.2
 - Sinatra ~> 1.3
