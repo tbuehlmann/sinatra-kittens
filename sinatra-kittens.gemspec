@@ -18,9 +18,10 @@ Gem::Specification.new do |spec|
     Gemfile
     LICENSE.txt
     README.md
-    sinatra-kittens.gemspec
     lib/sinatra/kittens.rb
+    lib/sinatra/kittens/helpers.rb
     lib/sinatra/kittens/version.rb
+    sinatra-kittens.gemspec
   ]
 
   spec.required_ruby_version = '>= 1.9.2'
