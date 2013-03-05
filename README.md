@@ -27,7 +27,7 @@ Install it:
 Require the Gem and register the `Kittens` Module:
 
 ```ruby
-require 'sinatra-kittens'
+require 'sinatra/kittens'
 
 class Application < Sinatra::Base
   configure do
