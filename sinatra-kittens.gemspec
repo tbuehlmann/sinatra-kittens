@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
     sinatra-kittens.gemspec
   ]
 
-  spec.required_ruby_version = '>= 1.9.2'
+  spec.required_ruby_version = '>= 1.8.7'
   spec.add_dependency 'sinatra', '~> 1.3'
 end

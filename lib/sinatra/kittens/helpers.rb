@@ -2,8 +2,9 @@ module Sinatra
   module Kittens
     module Helpers
       def kittens_page(x = 200..500, factor = 0.2)
-        x = x.to_a.sample
-        y = ((x - factor*x).floor..(x + factor*x).ceil).to_a.sample
+        sample_method = RUBY_VERSION >= '1.9' ? :sample : :choice
+        x = x.to_a.send(sample_method)
+        y = ((x - factor*x).floor..(x + factor*x).ceil).to_a.send(sample_method)
 
         <<-HTML
 <!DOCTYPE html>
