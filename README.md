@@ -5,7 +5,7 @@ Providing kitten not_found pages for [Sinatra](https://github.com/sinatra/sinatr
 Example application [here](http://sinatra-kittens-example.herokuapp.com/).
 
 ## Requirements
-- Ruby => 1.9.2
+- Ruby => 1.8.7
 - Sinatra ~> 1.3
 
 ## Installation
