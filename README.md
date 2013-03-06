@@ -1,4 +1,4 @@
-# sinatra-kittens
+# sinatra-kittens [![Gem Version](https://badge.fury.io/rb/sinatra-kittens.png)](http://badge.fury.io/rb/sinatra-kittens)
 
 Providing kitten not_found pages for [Sinatra](https://github.com/sinatra/sinatra "Sinatra") using [placekitten](http://placekitten.com/ "placekitten").
 
