@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = Sinatra::Kittens::VERSION
   spec.authors = ['Tobias Bühlmann']
   spec.email = ['tobias.buehlmann@gmx.de']
-  spec.date = '2013-03-05'
+  spec.date = '2013-03-06'
   spec.description = 'Kitten pictures for Sinatra not_found pages.'
   spec.summary = spec.description
   spec.homepage = 'https://github.com/tbuehlmann/kittens'
