@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.date = '2013-03-06'
   spec.description = 'Kitten pictures for Sinatra not_found pages.'
   spec.summary = spec.description
-  spec.homepage = 'https://github.com/tbuehlmann/kittens'
+  spec.homepage = 'https://github.com/tbuehlmann/sinatra-kittens'
   spec.license = 'MIT'
   spec.require_paths = ['lib']
   spec.files = %w[
