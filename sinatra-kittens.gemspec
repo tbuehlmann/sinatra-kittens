@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.version = Sinatra::Kittens::VERSION
   spec.authors = ['Tobias Bühlmann']
   spec.email = ['tobias.buehlmann@gmx.de']
-  spec.date = '2013-03-06'
+  spec.date = '2013-03-12'
   spec.description = 'Kitten pictures for Sinatra not_found pages.'
   spec.summary = spec.description
   spec.homepage = 'https://github.com/tbuehlmann/sinatra-kittens'
@@ -15,13 +15,17 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
   spec.files = %w[
     .gitignore
+    .travis.yml
     Gemfile
     LICENSE.txt
     README.md
+    Rakefile
     lib/sinatra/kittens.rb
     lib/sinatra/kittens/helpers.rb
     lib/sinatra/kittens/version.rb
     sinatra-kittens.gemspec
+    spec/extension_spec.rb
+    spec/spec_helper.rb
   ]
 
   spec.required_ruby_version = '>= 1.8.7'
