@@ -1,3 +1,5 @@
+require 'sinatra/base'
+
 module Sinatra
   module Kittens
     require 'sinatra/kittens/helpers'

@@ -25,5 +25,8 @@ Gem::Specification.new do |spec|
   ]
 
   spec.required_ruby_version = '>= 1.8.7'
-  spec.add_dependency 'sinatra', '~> 1.3'
+  spec.add_dependency 'sinatra', '>= 1.0'
+  spec.add_development_dependency 'rake', '~> 10.0'
+  spec.add_development_dependency 'rspec', '~> 2.13'
+  spec.add_development_dependency 'rack-test', '~> 0.6'
 end
