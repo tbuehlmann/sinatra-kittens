@@ -9,7 +9,7 @@ end
 
 class KittenTest < Sinatra::Base
   configure do
-  	set :environment, :test
-  	register Sinatra::Kittens
+    set :environment, :test
+    register Sinatra::Kittens
   end
 end
